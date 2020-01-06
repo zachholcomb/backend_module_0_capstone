@@ -1,12 +1,12 @@
-def checker_board(dimension)
+def checker_board(length, height)
   shape1 = "X "
   shape2 = " X"
   line1 = ""
   line2 = ""
-  dimension.times {line1 << shape1}
-  dimension.times {line2 << shape2}
+  length.times {line1 << shape1}
+  length.times {line2 << shape2}
 
-  lines = (1..dimension).to_a
+  lines = (1..height).to_a
   lines.each do |line|
     if line.even?
       puts line1
@@ -16,7 +16,12 @@ def checker_board(dimension)
   end
 end
 
-puts "Tell me how big the checker board is?"
+puts "Tell me the length of the checker board."
 print "> "
-input = $stdin.gets.chomp.to_i
-checker_board(input)
+input_length = $stdin.gets.chomp.to_i
+
+puts "Good. Now tell me the height."
+print "> "
+input_height = $stdin.gets.chomp.to_i
+
+checker_board(input_length, input_height)
