@@ -1,3 +1,4 @@
+# Thought I'd give this a shot for fun even though I didn't do the notes for this one.
 def checker_board(length, height)
   shape1 = "X "
   shape2 = " X"
@@ -14,6 +15,7 @@ def checker_board(length, height)
       puts line2
     end
   end
+  puts "Here you go!"
 end
 
 puts "Tell me the length of the checker board."
