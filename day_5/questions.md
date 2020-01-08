@@ -28,7 +28,7 @@ states.values
 ```
 1. What is another example of when we might use a hash?  In this case, why is a hash better than an array?
 
-A hash would be useful when mapping multiple collections of data together.  Because we use keys in hashes if you continue to set things equal to the keys before you can pull data from further and further away.  Hashes are useful because you can store different types of data within a hash, i.e. strings, integers, etc.
+A hash would be useful when mapping multiple collections of data together.  Because we use keys in hashes, you continue to set things equal to the keys which allows you to pull data from further and further away.  Hashes are useful because you can store different types of data within a hash, i.e. strings, integers, etc.
 
 1. What questions do you still have about hashes?
 
