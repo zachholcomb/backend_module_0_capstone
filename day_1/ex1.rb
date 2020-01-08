@@ -9,7 +9,7 @@ puts 'I "said" do not touch this.'
 # I am a comment
 # Another comment
 puts "I am not a comment."
-# But I am a content
+# But I am a comment
 puts "I am a command"
 =begin
 I am a comment

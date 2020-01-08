@@ -13,6 +13,6 @@ puts "So, you're #{age} old, #{height} tall and #{weight} heavy."
 # in this code if I were to have age = gets it would appear as two separate lines
 
 print "What's your name? "
-name = gets.comp
+name = gets.chomp
 
 puts "Hello #{name} welcome to Ruby."
